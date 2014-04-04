@@ -1,0 +1,29 @@
+.box{
+	height: 300px;
+	width: 300px;
+}
+
+#left{
+	float: left;
+	font-family:'Dosis', sans-ser
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 40px
+	letter-spacing: 10px;
+	color: #3399FF;
+	background-color: #00cc00;
+}
+
+#right{
+	float: right;
+	font-family: 'open Sans', sans-ser
+	font-weight: 300;
+	font-size: 18px
+	word-spacing: 5px;
+	letter-spacing: 5px;
+	background-image: url(http://img2.wikia.nocookie.net/__cb20140117103351/detectiveconanworld/fr/images/2/29/Conan1.jpg);
+}
+
+body{
+	background-color: #FF8330;
+}

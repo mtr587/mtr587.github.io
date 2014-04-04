@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+ <head>
+	<title>My To Do List</title>
+	<script>
+      function addText(){
+        // Store value of the input to a variable
+        var input = document.getElementById('input').value; 
+        // Add that input to a List
+        document.getElementById('do').innerHTML+="<li>" + input +"</li>"
+        //Clear the text box after adding item to list
+        document.getElementById('input').value = ""
+      }
+	</script>
+   </head>
+   </body>
+      <input type= "text" id="input" onkeydown="if (event.keyCode == 13) docunment.getElementById('add').click()"/>
+      <input type= "button" id="add" onclick="addText()" value="Add To Do Item" />
+      <p id="do"></p>
+   </body>
+</html>
+
+
+
+
+
+
